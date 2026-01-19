@@ -11,6 +11,7 @@ Brushtily is a powerful plugin bridging freeform brushing into Tiled with easy o
 ### **Freeform Texture Painting**
 - **Non-grid-aligned brush strokes** - Paint naturally without being constrained to tile grids
 - **Auto-smoothing brush layers** - Automatically smooths brush strokes to remove hard edges for natural, organic results
+- **Native layer blending** - Native layer blending for natural appearances and seamless layer integration
 - **Smooth continuous painting** - Real-time stroke rendering with optimized performance
 - **Dual layer support** - Works seamlessly on ImageLayer (immediate visual feedback) and ObjectGroup (full undo support)
 
@@ -45,6 +46,7 @@ Brushtily is a powerful plugin bridging freeform brushing into Tiled with easy o
 - **Right-click erase** - Right-click and drag to erase painted areas with independent erase brush (separate size and softness controls)
 - **Smart erase** - Maintains original image backup for precise erasing
 - **Auto-smoothing** - Automatically removes hard edges for seamless blending
+- **Native layer blending** - Native layer blending for natural appearances and seamless integration between layers
 
 ### **Object Stamping System**
 - **Drag-to-stamp workflow** - Paint objects by dragging (similar to Inkarnate's stamp tool)

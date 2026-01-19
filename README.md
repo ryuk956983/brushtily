@@ -34,6 +34,7 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 - **Fill Mode**: Bucket fill with color tolerance control
 - **Pressure Sensitivity**: Velocity-based simulation for natural brush strokes (affects size and opacity)
 - **Auto-Smoothing Brush Layers**: Automatically smooths brush strokes to remove hard edges for natural, organic results
+- **Native Layer Blending**: Native layer blending for natural appearances and seamless integration between layers
 - **Right-Click Erase**: Right-click and drag to erase painted areas with independent erase brush (separate size and softness controls)
 - **Brush Presets**: Save and load favorite brush configurations
 - **Layer Brush Memory**: Automatically remembers brush texture per layer
@@ -47,6 +48,7 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 
 ### Layer Support
 - **Dual Layer Support**: Works on ImageLayer (smooth painting, immediate visual feedback) and ObjectGroup (undo support, object stamping)
+- **Native Layer Blending**: Native layer blending for natural appearances and seamless layer integration
 
 ## 📦 Installation
 

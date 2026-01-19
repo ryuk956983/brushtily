@@ -9,6 +9,10 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 
 *Brushtily toolbar integrated into Tiled Map Editor, showing all brush controls and layer management*
 
+![Freeform Brush and Object Stamping Example](stamping-and-freeform-example.png)
+
+*Example showing freeform texture painting (green moss/grass) and object stamping (Japanese maple trees) with native layer blending for natural appearances*
+
 ## Features
 
 ### Texture Painting

@@ -5,6 +5,10 @@
 
 A powerful plugin bridging freeform brushing into Tiled with easy object placement. This JavaScript extension adds Inkarnate-inspired freeform brushing and object stamping capabilities, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
 
+![Brushtily Toolbar Preview](brushtily-toolbar-preview.png)
+
+*Brushtily toolbar integrated into Tiled Map Editor, showing all brush controls and layer management*
+
 ## Features
 
 ### Texture Painting

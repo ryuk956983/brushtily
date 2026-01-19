@@ -150,7 +150,9 @@ Unlike basic tile placement tools, Brushtily brings **professional digital paint
 
 **Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) via vibe coding using model GLM 4.7
 
-This project was programmed and created using PersistenceAI's advanced AI-assisted development workflow, demonstrating the power of AI-human collaboration in software development.
+This project was programmed and created using [PersistenceAI](https://persistence-ai.github.io/Landing/)'s advanced AI-assisted development workflow, demonstrating the power of AI-human collaboration in software development.
+
+**Learn more about PersistenceAI:** Visit [https://persistence-ai.github.io/Landing/](https://persistence-ai.github.io/Landing/) - The AI coding agent built for the terminal.
 
 ---
 

@@ -61,7 +61,7 @@ Brushtily brings professional Inkarnate-inspired freeform brushing and object st
 ## 🙏 Credits
 
 **Created by:** Leo Louvar  
-**Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) via 1 hour of vibe coding using model GLM 4.7 and human review
+**Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) using model GLM 4.7 and human review and refinement.
 
 ---
 

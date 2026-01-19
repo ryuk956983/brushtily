@@ -58,17 +58,37 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 
 ### Quick Install
 
-1. **Download** `brushtily.mjs` from the [latest release](https://github.com/PersistenceOS/brushtily/releases) (or use the file in this repository)
+1. **Download** `brushtily.mjs` from the [latest release](https://github.com/PersistenceOS/brushtily/releases)
+   - Click on the latest release
+   - Download `brushtily.mjs` (or extract from the ZIP package)
 
-2. **Copy to Tiled extensions folder**:
-   - **Windows**: `%LOCALAPPDATA%\Tiled\extensions\` 
-     - (Usually: `C:\Users\<USER>\AppData\Local\Tiled\extensions\`)
-   - **macOS**: `~/Library/Preferences/Tiled/extensions/`
-   - **Linux**: `~/.config/tiled/extensions/`
+2. **Locate Tiled extensions folder** (Tiled automatically detects `.mjs` files in this folder):
+   
+   **Windows:**
+   - Path: `%LOCALAPPDATA%\Tiled\extensions\`
+   - Full path: `C:\Users\<YOUR_USERNAME>\AppData\Local\Tiled\extensions\`
+   - Quick access: Press `Win+R`, type `%LOCALAPPDATA%\Tiled\extensions\`, press Enter
+   - Or paste `%LOCALAPPDATA%\Tiled\extensions\` into Windows Explorer address bar
+   
+   **macOS:**
+   - Path: `~/Library/Preferences/Tiled/extensions/`
+   - Open Finder, press `Cmd+Shift+G`, paste: `~/Library/Preferences/Tiled/extensions/`
+   - Create folder if it doesn't exist
+   
+   **Linux:**
+   - Path: `~/.config/tiled/extensions/`
+   - Create directory if needed: `mkdir -p ~/.config/tiled/extensions`
 
-3. **Restart Tiled** (or the extension will auto-reload on file change)
+3. **Install the plugin**: Copy `brushtily.mjs` directly into the extensions folder
+   - ⚠️ **Important**: Place the file directly in the extensions folder, NOT in a subfolder
+   - Tiled will automatically detect `.mjs` files in this location
 
-4. **Verify**: The "Brushtily" tool should appear in the Tools toolbar
+4. **Restart Tiled** (or the extension will auto-reload on file change)
+
+5. **Verify Installation**: 
+   - Open Tiled
+   - Look for "Brushtily" tool icon in the Tools toolbar
+   - If not visible, check Tiled Console (View → Views → Console) for errors
 
 ### Verify Installation
 

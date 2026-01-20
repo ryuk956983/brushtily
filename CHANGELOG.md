@@ -2,6 +2,33 @@
 
 All notable changes to Brushtily will be documented in this file.
 
+## [1.2.0] - 2025-01-20
+
+### Added
+- **Descriptive object naming**: Objects are now named based on the selected file (e.g., `Japanese_Maple_Tree_G02` instead of `stamped_object_0`)
+  - Makes objects easier to identify in Tiled's object list
+  - Uses same-name strategy for simpler grouping during TMX-to-text conversion
+
+- **Quick reselect last object**: Added "Reselect Last" button in Select Object dialog
+  - Remembers the last selected object (image or tile)
+  - Shows current selection at the top of the dialog
+  - Faster workflow when reusing the same object
+
+### Changed
+- **Auto-enable stamping on object selection**: Object Stamping Mode now enables automatically when selecting an object on an object layer
+- **Auto-disable stamping on brush selection**: Object Stamping Mode disables automatically when selecting a brush texture on an image layer
+- **Auto-toggle on layer switch**: Automatically toggles stamping mode when switching between layer types
+  - Object layer → auto-enables (if object is selected)
+  - Image layer → auto-disables
+  - Mode stays aligned with the current layer type
+
+### Improved
+- Streamlined workflow with automatic mode switching based on context
+- Better object identification and naming for easier management
+- Seamless transitions between object stamping and texture brushing
+
+---
+
 ## [1.1.0] - 2025-01-19
 
 ### Fixed

